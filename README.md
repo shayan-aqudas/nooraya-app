@@ -1,0 +1,1 @@
+# Nooraya App Landing Page\n\nOfficial landing and smart redirect page for Nooraya on Google Play Store.
