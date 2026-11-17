@@ -329,7 +329,7 @@
 
         // Auto trigger redirect on load after 350ms for smooth visual transition
         window.addEventListener('load', function() {
-            setTimeout(launchPlayStore, 350);
+            setTimeout(launchPlayStore, 1000);
         });
 
         // Click handler for manual tap
@@ -340,7 +340,7 @@
                 window.location.href = playStoreAppUri;
                 setTimeout(function() {
                     window.location.href = playStoreWebUrl;
-                }, 750);
+                }, 1000);
             }
         });
     </script>
